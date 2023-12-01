@@ -1,11 +1,13 @@
-.hero-conteiner {
+.hero {
     background-color: #84a178;
+}
+
+.hero-conteiner {
     display: flex;
 
     background-image: url(/image/Крапки.png);
     background-position-y: bottom;
     background-repeat: no-repeat;
-    background-size: 1166px;
 }
 
 .title-p {

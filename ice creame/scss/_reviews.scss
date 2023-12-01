@@ -3,6 +3,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    position: relative;
 }
 
 .review-section {
@@ -48,6 +50,7 @@
 .block-small-icon {
     display: flex;
     gap: 10px;
+    margin-bottom: 100px;
 }
 
 .icon-slider {
@@ -61,6 +64,11 @@
 .cards-list {
     display: flex;
     gap: 32px;
+}
+
+.contacts {
+    position: absolute;
+    bottom: -368px;
 }
 
 .table {
@@ -157,3 +165,4 @@
 .mail {
     margin-top: 4px;
 }
+
